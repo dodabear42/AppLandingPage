@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">  </head>
+  <body data-spy="scroll" data-target="#navbarSupportedContent">
+      
+      <nav class="navbar fixed-top navbar-toggleable-md navbar-light bg-faded">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Veggie Patch</a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto nav nav-tabs" role="tablist">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#download">Download</a>
+          </li>
+        </ul>
+        <form class="form-inline">
+          <label class="sr-only" for="inlineFormInputGroup">Username</label>
+          <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+            
+            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+            </div>
+            <label class="sr-only" for="inlineFormInputGroup">Username</label>
+          <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Password">
+            </div>
+            
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Submit</button>
+          </form>
+      </div>
+</nav>
+<main>
+    <div id="home" class="jumbotron jumbotron-fluid">
+        <div id="jumbo-container" class="container col-md-8">
+          <h1 class="display-3">Veggie Patch</h1>
+          <p class="lead">A swiping game that teaches preschoolers about the growth cycle</p>
+          <hr class="my-4">
+          <p>Colorful graphics and fun sounds keep kids engaged<p>
+        <form id="news-signup-form" class="form-inline col-md-8">
+        
+          <!-- Label for screen readers only to assist accessibility for blind users-->   
+          <label class="sr-only" for="news-signup">Enter your e-mail address to sign up for app-related news</label>
+          
+          <!--email signup for mailing list-->
+          <input type="email" class="form-control mb-2 mr-sm-2 mb-sm-0" id="news-signup" placeholder="Enter e-mail address for alerts">
+
+
+          <button type="submit" class="btn btn-success">Sign Up</button>
+       
+        </form>
+    </div>
+</div>
+    
+<!--section to contain more detailed information about the app and cards with links to even more information-->
+<section id="about" class="container text-center">
+    <h2>Teach kids about gardening</h2>
+    <article class="col-sm-12 row card-wrapper">
+        
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="tomatos.jpg" alt="large red juicy tomatos">
+          <div class="card-block">
+            <i class="fa fa-grav" aria-hidden="true"></i>
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="pumpkins.jpg" alt="large organge jack-o-lantern pumpkins">
+          <div class="card-block">
+            <i class="fa fa-shower" aria-hidden="true"></i>
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+          <img class="card-img-top" src="peppersCucumbers.jpg" alt="green peppers and cucumbers">
+          <div class="card-block">
+            <i class="fa fa-bug" aria-hidden="true"></i>
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+    </article>
+</section>
+</main>
+<!--footer solely for leading user to app store to download app-->
+<footer id="download" class="bg-info">
+    <div id="footer-contents" class="container text-center col-sm-12">
+        <a href="#">
+            <h3 id="footer-heading">Download at the App Store</h3>
+            <i class="fa fa-apple" aria-hidden="true"></i>
+        </a>
+    </div>
+</footer>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/1cfaa9dafe.js"></script>
+  </body>
+</html>

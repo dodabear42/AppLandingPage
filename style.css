@@ -1,0 +1,51 @@
+.jumbotron {
+    position: relative;
+    background: #000 url('grass.jpg') center center;
+    width: 100%;
+
+    background-size: cover;
+    overflow: hidden;
+}
+#jumbo-container {
+    background-color: white;
+    opacity: 0.9;
+    text-align: center;
+    height: 100%;
+    padding: 30px;
+}
+#news-signup {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+#news-signup-form {
+    margin: 0 auto;
+    text-align: center;
+}
+.card img {
+    height: 20rem;
+}
+footer {
+    height: 300px;
+}
+#footer-heading {
+    padding-top: 50px;
+}
+body {
+    position: relative;
+}
+section {
+    min-height: 1000px;
+}
+
+.fa-apple {
+    font-size: 3.7rem;
+}
+.card-wrapper {
+    text-align: center;
+    margin-left: 10vh;
+}
+
+a {
+    text-decoration: none;
+}
